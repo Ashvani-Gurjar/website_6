@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&family=Baloo+Bhai+2:wght@500&family=Lato:wght@300&family=Playball&family=Roboto:wght@300&family=The+Nautigal&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     background: url("images1.jpg");
+     background-size: cover;
+     background-position-y: center;
+    
+}
+.container{
+     font-family: 'Baloo 2', cursive;
+    
+     max-width: 80%;
+     margin:  0px auto;
+     padding: 34px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+form{
+     margin-top: 14px;
+}
+.container h1 ,p{
+     font-family: 'Baloo 2', cursive;
+     text-align: center;
+     font-size: 55px;
+}
+ .container h3{
+     font-size: 24px;
+}
+.container h2{
+     font-size: 34px;
+     color: green
+}
+input, textarea {
+     font-family: 'Baloo 2', cursive;
+     width: 80%;
+     margin: 6px;
+     font-size: 24px;
+     border: 3px solid black;
+     border-radius: 10px ;
+}
+textarea{
+     width: 80%;
+     height: 145px;
+}
+hr{
+     color: black;
+}
+.btn{
+     font-family: 'Baloo 2', cursive;
+     width: 131px;
+     height: 47px;
+     margin: 10px;
+     border: 3px solid black;
+     border-radius: 10px ;
+     font-size: 24px;
+     cursor: pointer;
+}
+.btn:hover{
+     background-color: purple;
+     color: white;
+     transition: all .3s ease-in-out;
+}
